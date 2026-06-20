@@ -184,19 +184,6 @@
   }
 </style>
 
-<nav>
-  <a routerLink="/" routerLinkActive="active">Home</a>
-</nav>
-
-
-<nav>
-  <a routerLink="/components" routerLinkActive="active">components</a>
-</nav>
-
-<nav>
-  <a routerLink="service" routerLinkActive="active">Service</a>
-</nav>
-<router-outlet></router-outlet>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
@@ -206,10 +193,9 @@
 <!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
+
 <app-navbar></app-navbar>
 
-  <main>
-    <router-outlet></router-outlet>
-  </main>
-
-
+<main>
+<router-outlet></router-outlet>
+</main>
